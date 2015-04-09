@@ -5662,7 +5662,8 @@ button.close {
 
 .logo img {
   width: 100%;
-  padding: 7% 1% 7% 4%; }
+  padding: 7% 1% 7% 4%;
+  cursor: pointer; }
 
 .img-home-centro {
   height: 800px;
@@ -5682,7 +5683,8 @@ button.close {
 
 .redes2 img {
   width: 30%;
-  right: 0; }
+  right: 0;
+  cursor: pointer; }
 
 .fb {
   margin-right: 0;
@@ -5928,7 +5930,8 @@ textarea {
     padding-bottom: 5%;
     border-bottom: 1px solid rgba(136, 136, 136, 0.26); }
   .gridpie img {
-    width: 10%; }
+    width: 10%;
+    cursor: pointer; }
 
 .footer-text {
   text-align: center; }
