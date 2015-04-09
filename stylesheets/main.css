@@ -5649,8 +5649,7 @@ button.close {
   color: white; }
 
 .collapse {
-  float: right;
-  text-align: right; }
+  float: right !important; }
 
 .navbar-nav {
   padding-top: 17px; }
@@ -5665,9 +5664,13 @@ button.close {
   width: 100%;
   padding: 7% 1% 7% 4%; }
 
-.img-home-centro img {
+.img-home-centro {
+  height: 800px;
   width: 100%;
-  height: 100%; }
+  background-image: url(../img/home.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
 
 .redes2 {
   position: fixed;
@@ -5726,7 +5729,7 @@ button.close {
   background-image: url(../img/tile3.png); }
 
 .row {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px; }
 
 .display {
@@ -5761,6 +5764,7 @@ button.close {
   width: 100%; }
 
 .overlay {
+  padding: 10% 15%;
   position: absolute;
   width: 100%;
   top: 0%;
@@ -5774,7 +5778,7 @@ button.close {
   visibility: visible; }
 
 .frase {
-  width: 100%;
+  width: 70%;
   position: absolute;
   top: 50%;
   text-align: center;
